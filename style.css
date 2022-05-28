@@ -1,0 +1,226 @@
+/* CONFIFURAÇÃO GERAL */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --botton-color: hwb(205 0% 71%);
+    --primary-color: #FFF;
+    --second-color: #FFFFFF;
+    ;
+    --blue-color: #02799D;
+
+    font-size: 62.5%;
+  }
+
+  /* BODY INDEX  */
+  #universe1{
+    background-image: url(/image/mountains-universe-1\ 1.png);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+      
+  }
+  /* BODY PAGE2  */
+  #universe2 {
+  background-image: url(/image/mountains-universe-2.png);
+  font-family: 'Roboto' sans-serif;
+  font-size: 1.6rem;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  }
+  /* BODY PAGE3 */
+  #universe3 {
+    background-image: url(/image/mountains-universe-3.png);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+
+  #uninerseOneLogo{
+  margin-top: 4rem;
+  padding-left: 10.2rem;
+  opacity: 0.4;
+  
+  }
+
+  #uninerseTwoLogo{
+    margin-top: 4rem;
+    padding-left: 10.2rem;
+    
+  }
+
+  #uninerseThreeLogo{
+    margin-top: 4rem;
+    padding-left: 10.2rem;
+  }
+
+  /* MENU GERAL  */
+  nav{
+    
+  font-size: clamp(1rem , 1.4rem + 1vw, 2.4rem);
+  padding: 4rem 7.2rem;
+  font-family: 'Roboto', sans-serif;
+  
+  }
+
+  .menu{
+    position: absolute;
+    width: 1280px;
+  
+    left: 20rem;
+    top: 4rem;
+    color: #FFFFFF;
+
+  }
+
+
+
+  .menu li {
+    display: inline;
+    
+  }
+
+  .menu li a{
+
+    text-decoration: none;
+    padding: 11px;
+    display: inline-block;
+  color:#FFFFFF ;
+  
+  
+  }
+
+  .menu li a:hover{
+
+    font-weight: bold;
+    color:#fffcfc;
+    text-decoration: underline;
+  text-underline-offset: 1rem;
+      
+  }
+
+  /* TEXTOS INDEX  */
+  .page1{
+    position: absolute;
+    text-align: center;
+    width: 550px;
+    left: 419px;
+    top: 265px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 28px;
+    line-height: 125%;
+    font-style: normal;
+    color: #E1E1E6;
+    
+  }
+  /* TEXTOS PAGE 2 */
+  .page2 h1{
+    position: absolute;
+    width: 29.6rem;
+    height: 6rem;
+    left: 10.2rem;
+    top: 18.5rem;
+    font-family: 'Roboto',sans-serif;
+    font-size: 4.8rem;
+    line-height: 125%;
+    font-style: normal;
+    color: #E1E1E6;
+  }
+
+  .page2 p{
+    position: absolute;
+    width: 64.8rem;
+    height: 20.3rem;
+    left: 11rem;
+    top: 26.1rem;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #E1E1E6;
+  }
+
+  /* TEXTOS PAGE 3 */
+  .page3 h1 {
+    position: absolute;
+    width: 29.6rem;
+    height: 6rem;
+    left: 10.2rem;
+    top: 18.5rem;
+    font-family: 'Roboto',sans-serif;
+    font-size: 4.8rem;
+    line-height: 125%;
+    font-style: normal;
+    color: #E1E1E6;
+  }
+
+  .page3 p {
+    position: absolute;
+    width: 64.8rem;
+    height: 20.3rem;
+    left: 11rem;
+    top: 26.1rem;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #E1E1E6;
+  }
+
+  /* BOTÃO INDEX */
+
+  .btn{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 590px;
+    top: 340px;
+
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    padding: 1.4rem 3.0rem;
+    text-transform: uppercase;
+    border: 2px solid  var(--primary-color);
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  
+    }
+
+    .btn a {
+      text-decoration: none;
+      color: #FFFFFF;
+      
+    }
+
+    
+    .btn:hover{
+    
+      background-color: var(--primary-color);
+      transition: ease-in 400ms;
+      
+    }
+    .btn a:hover {
+      color: #02799D;
+    
+    }
